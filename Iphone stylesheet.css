@@ -1,0 +1,197 @@
+h1 {
+    text-align: center;
+    text-decoration: underline 5px black;
+    color: white;
+    background-color: rgb(72, 72, 72);
+    padding: 30px;
+}
+
+.desc {
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas: 
+    "heading heading heading"
+    "head-left . head-right"
+    "left . right";
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.heading-left {
+    grid-area: head-left;
+    margin: 90px 40px 10px 40px;
+    float: left;
+}
+
+.heading-right {
+    grid-area: head-right;
+    margin: 90px 40px 10px 40px;
+    float: right;
+}
+
+.right-side-txt {
+    grid-area: right;
+}
+
+.left-side-txt {
+    grid-area: left;
+}
+
+.iphone {
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px rgb(162, 162, 162);
+    width: 320px;
+    height: 600px;   
+    border-radius: 40px;
+    background: linear-gradient(45deg, rgb(220, 85, 143), pink, white, violet, rgb(158, 24, 158),rgb(96, 4, 233), rgb(48, 48, 230));
+    position: absolute;
+    top: 210px;
+    bottom: 40px;
+    right: 400px;
+    left: 630px;
+}
+
+.head-display {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5px 20px 5px;
+    justify-content: space-around;
+
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5px 20px 5px;
+    justify-content: space-around;
+
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5px 20px 5px;
+    justify-content: space-around;
+
+}
+
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5px 20px 5px;
+    justify-content: space-around;
+
+}
+
+.row-5 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5px 20px 5px;
+    justify-content: space-around;
+
+}
+
+.app {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgb(43, 43, 43);
+}
+
+.los-axis {
+    background: url('https://cdn.discordapp.com/attachments/931859564863823882/1066351802552954920/Los_Axis_bank_icon1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.iaccess {
+    background: url('https://cdn.discordapp.com/attachments/931859564863823882/1066353970810994698/iAccess_icon1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.youtube {
+    background: url('data:image/png;base64,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');
+    background-position: center;
+    background-size: cover;
+}
+
+.twitch {
+    background: url('https://9to5mac.com/2019/09/26/twitch-new-branding-icon-logo-color/03-glitch/');
+    background-position: center;
+    background-size: cover;
+}
+
+.instagram {
+    background: url('https://cdn.discordapp.com/attachments/931859564863823882/1066132433726099476/image.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.google {
+    background: url('https://cdn.jim-nielsen.com/ios/512/google-2015-10-22.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.attributes-container {
+    display: grid;
+    grid-template-columns: 1 30px;
+    grid-template-rows: 6 60px;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.attributes {
+    background-color: rgb(74, 119, 231);
+    height: auto;
+    width: 190px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(146, 146, 146);
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.add-att {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(47, 178, 50);
+    font-family: tahoma;
+    margin: 5px 5px 5px 10px;
+    text-align: center;
+    color: white;
+}
+
+.sub-att {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(188, 36, 36);
+    font-family: tahoma;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    color: white;
+}
